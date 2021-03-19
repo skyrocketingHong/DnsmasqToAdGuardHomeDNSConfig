@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ninja.skyrocketing.tools</groupId>
-    <artifactId>Tools.Dnsmasq2AdGuardHome</artifactId>
-    <version>1.0.0</version>
+    <artifactId>DnsmasqToAdGuardHomeDNSConfig</artifactId>
+    <version>1.0.1</version>
 
     <properties>
         <maven.compiler.source>15</maven.compiler.source>

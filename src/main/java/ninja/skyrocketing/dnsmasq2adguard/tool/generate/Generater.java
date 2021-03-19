@@ -6,7 +6,7 @@ package ninja.skyrocketing.dnsmasq2adguard.tool.generate;
  * @Version 1.0
  */
 public class Generater {
-    public static String GenerateConfig(String comment, String adguardRule) {
+    public static String generateConfig(String comment, String adguardRule) {
         return comment + "\n" + adguardRule + "\n";
     }
 }

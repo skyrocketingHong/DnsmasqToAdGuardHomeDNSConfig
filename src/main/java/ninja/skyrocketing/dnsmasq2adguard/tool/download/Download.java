@@ -3,18 +3,18 @@ package ninja.skyrocketing.dnsmasq2adguard.tool.download;
 import cn.hutool.http.HttpRequest;
 
 /**
- * @Author skyrocketing Hong
- * @Date 2020-11-03 003 16:02:58
- * @Version 1.0
+ * @author skyrocketing Hong
+ * @date 2020-11-03 003 16:02:58
+ * @version 1.0
  */
 public class Download {
-    public static String DownloadPlaintext(String url) {
+    public static String downloadPlaintext(String url) {
         System.out.print("开始下载 \"" + url + "\" ");
         String tmp = "";
         boolean tryAgain = false;
 
         try {
-            while(tmp.equals("")) {
+            while("".equals(tmp)) {
                 if (tryAgain) {
                     System.out.print("正在重试...");
                 }
